@@ -1,0 +1,54 @@
+/*h1 {
+    color: red; 
+} */
+h1 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  background-color: beige;
+}
+
+span {
+  color: orange;
+}
+.container {
+  box-shadow: 10px 13px 0-1px rgb(108, 24, 24);
+}
+
+#judul1 {
+  font-weight: 800;
+  color: chocolate;
+  text-decoration: underline;
+}
+#judul2 {
+  font-weight: 800;
+  color: crimson;
+}
+.content {
+  background-color: yellow;
+}
+.container2 {
+  color: indigo;
+}
+.container2 .content2 {
+  background-color: darksalmon;
+}
+.box {
+  background-color: darkmagenta;
+  width: 100px;
+  height: 100px;
+}
+.box a {
+  color: orangered;
+  font-size: 25px;
+}
+
+.box:hover {
+  background-color: rgb(175, 44, 44);
+}
+.box:hover > a {
+  color: black;
+}

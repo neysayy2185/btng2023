@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  margin-inline: 15px;
+}
+
+nav {
+  background-color: magenta;
+  color: #ffffff;
+  padding-block: 10px;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 5px 10px 0;
+}
+
+nav .container {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-inline: 8px;
+  font-size: 17px;
+}
+
+#home {
+  background-color: aqua;
+  text-align: center;
+  padding-block: 75px;
+  padding-top: 75px;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 100%;
+  border: solid 3px;
+}
+
+#home h2 {
+  font-size: 23px;
+  margin-block: 6px;
+}
+
+#home h4 {
+  font-size: 16px;
+  font-weight: 12px;
+}
+
+section {
+  padding-block: 50px;
+}
+
+.title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#about p {
+  font-size: 15px;
+  text-align: center;
+  padding-inline: 35px;
+}
+
+#pengalaman {
+  background-color: aqua;
+}
+
+.card-container {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px 0;
+}
+
+.card-text {
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+#skill .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#skill .box {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 15px;
+  border: solid 2px;
+  width: 400px;
+}
+
+#skill .box h1 {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#skill .box li {
+  font-size: 15px;
+}
+
+.socialmedia img {
+  width: 55px;
+}
+
+.form-contact .title {
+  margin-top: 35px;
+}
+
+.socialmedia .box-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.socialmedia .box {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border: solid 2px;
+  border-radius: 15px;
+  width: 250px;
+  gap: 25px;
+}
+
+.socialmedia .box-container :hover {
+  background-color: aqua;
+}
+
+.socialmedia .box p {
+  font-size: 17px;
+}
+
+#contact form {
+  padding-inline: 70px;
+}
+
+#contact input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 2px;
+  margin-block: 10px;
+}
+
+#contact label {
+  font-weight: 700;
+}
+
+#contact textarea {
+  width: 100%;
+  border-radius: 15px;
+  border: solid 2px;
+  resize: none;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#contact button {
+  display: block;
+  margin-inline: auto;
+  padding: 8px 16px;
+  border-radius: 15px;
+  border: solid 2px;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: aqua;
+  color: black;
+  padding: 20px;
+}
